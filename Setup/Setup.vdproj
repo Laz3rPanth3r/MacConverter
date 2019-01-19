@@ -274,7 +274,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MacConverter"
         "ProductCode" = "8:{FBC54917-970A-4D09-8268-DF25CBB4B390}"
-        "PackageCode" = "8:{89208B6C-6482-46D1-8CA5-00709C16C02C}"
+        "PackageCode" = "8:{0722751F-34E8-45E0-BCCE-78B6AEDBF6D0}"
         "UpgradeCode" = "8:{43D552B5-2598-4CCA-9364-103E57C8FFD0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -405,7 +405,7 @@
             "Target" = "8:_D21929880A164F81B517E9F002D8F433"
             "Folder" = "8:_B043FDA05763467AABA8BCB89E91DADE"
             "WorkingFolder" = "8:_C3588B154B2542D996F00CC13A469B87"
-            "Icon" = "8:"
+            "Icon" = "8:_A271836BA34C45B591550987821F7F40"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D3D42C5ED8C643C7948B558C8E634529"
@@ -419,7 +419,7 @@
             "Target" = "8:_D21929880A164F81B517E9F002D8F433"
             "Folder" = "8:_D726D52801A84B6A806EA98B44D71F54"
             "WorkingFolder" = "8:_C3588B154B2542D996F00CC13A469B87"
-            "Icon" = "8:"
+            "Icon" = "8:_A271836BA34C45B591550987821F7F40"
             "Feature" = "8:"
             }
         }
@@ -823,7 +823,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D21929880A164F81B517E9F002D8F433"
             {
-            "SourcePath" = "8:..\\MacConverter\\obj\\Debug\\MacConverter.exe"
+            "SourcePath" = "8:..\\MacConverter\\obj\\Release\\MacConverter.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C3588B154B2542D996F00CC13A469B87"
