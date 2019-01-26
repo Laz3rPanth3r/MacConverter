@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap mp rescap">
-  <Identity Name="62349LazerPanther.MacConverter" Publisher="CN=7C896172-9EFD-4C29-8B9A-3F112FE377EF" Version="1.0.1.0" />
+  <Identity Name="62349LazerPanther.MacConverter" Publisher="CN=7C896172-9EFD-4C29-8B9A-3F112FE377EF" Version="1.0.2.0" />
   <Properties>
     <DisplayName>MacConverter</DisplayName>
     <PublisherDisplayName>LazerPanther</PublisherDisplayName>
