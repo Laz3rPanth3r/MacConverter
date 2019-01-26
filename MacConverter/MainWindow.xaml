@@ -10,16 +10,17 @@
             <TabItem Header="Single" TabIndex="1">
                 <Grid Name="singleGrid">
                     <Label x:Name="macLabel" Content="Mac Address" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="147" FontWeight="Bold" Margin="172,10,173,0" RenderTransformOrigin="0.466,-0.563"/>
-                    <TextBox x:Name="macTxt" Controls:TextboxHelper.Watermark="mac address" TabIndex="1" Controls:TextboxHelper.ClearTextButton="True" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" FontSize="15" FontFamily="Calibri" Margin="145,36,0,0"/>
+                    <TextBox x:Name="macTxt" TabIndex="1" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" FontSize="15" FontFamily="Calibri" Margin="145,36,0,0"/>
                     <Label x:Name="selectLabel" Content="Select Output Format:" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="147" FontWeight="Bold" Margin="172,74,173,0" RenderTransformOrigin="0.466,-0.563"/>
 
                     <RadioButton x:Name="radDash" GroupName="outputType" TabIndex="2" Margin="25,105,326,282" IsChecked="True">11-22-33-AA-BB-CC</RadioButton>
                     <RadioButton x:Name="radColon" GroupName="outputType" TabIndex="3" Margin="178,105,173,282">11:22:33:aa:bb:cc</RadioButton>
                     <RadioButton x:Name="rad4Dot" GroupName="outputType" TabIndex="4" Margin="324,105,27,282">1122.33aa.bbcc</RadioButton>
 
-                    <TextBox x:Name="resultTxt" Controls:TextboxHelper.Watermark="results" TabIndex="8" Controls:TextboxHelper.ClearTextButton="True" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" FontSize="15" FontFamily="Calibri" Margin="145,234,0,0"/>
-                    <Button x:Name="convertSingle" Style="{StaticResource AccentedSquareButtonStyle}"  TabIndex="4" Content="Convert" HorizontalAlignment="Left" Margin="176,277,0,0" VerticalAlignment="Top" Width="147" Click="ConvertSingle_Click"  FontSize="14" RenderTransformOrigin="0.482,-1.548"/>
-                    <Image Source="mac.jpg" Margin="10,10,404,325" />
+                    <Label x:Name="resLabel" Content="Result" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="147" FontWeight="Bold" Margin="172,163,173,0" RenderTransformOrigin="0.466,-0.563"/>
+
+                    <TextBox x:Name="resultTxt"  TabIndex="8" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" FontSize="15" FontFamily="Calibri" Margin="145,194,0,0"/>
+                    <Button x:Name="convertSingle" Style="{StaticResource AccentedSquareButtonStyle}"  TabIndex="4" Content="Convert" HorizontalAlignment="Left" Margin="176,237,0,0" VerticalAlignment="Top" Width="147" Click="ConvertSingle_Click"  FontSize="14" RenderTransformOrigin="0.482,-1.548"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Batch" TabIndex="2">
@@ -36,9 +37,7 @@
                     <RadioButton x:Name="rad4Dot2" GroupName="batchOutputType" TabIndex="4" Margin="325,155,26,232">1122.33aa.bbcc</RadioButton>
 
 
-                    <TextBox x:Name="resultBoxTxt" TabIndex="8" Controls:TextboxHelper.ClearTextButton="True" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="148" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" FontSize="15" FontFamily="Calibri" Margin="145,212,0,0"/>
-
-                    <Image Source="mac2.jpeg" Margin="375,155,10,10" />
+                    <TextBox x:Name="resultBoxTxt" TabIndex="8" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="148" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" FontSize="15" FontFamily="Calibri" Margin="145,212,0,0"/>
 
                 </Grid>
             </TabItem>

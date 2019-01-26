@@ -170,7 +170,7 @@ namespace MacConverter
 
             foreach (string line in File.ReadLines(sourcefile))
             {
-                if (radDash.IsChecked == true)
+                if (radDash2.IsChecked == true)
                 {
                     inputMac = line;
                     string filteredString = RemoveUnwantedCharacters(inputMac, allowedCharacters);
@@ -184,7 +184,7 @@ namespace MacConverter
                     
                 }
 
-                if (radColon.IsChecked == true)
+                if (radColon2.IsChecked == true)
                 {
                     inputMac = line;
                     string filteredString = RemoveUnwantedCharacters(inputMac, allowedCharacters);
@@ -197,7 +197,7 @@ namespace MacConverter
                     results.Add(outputMac);
                 }
 
-                if (rad4Dot.IsChecked == true)
+                if (rad4Dot2.IsChecked == true)
                 {
                     inputMac = line;
                     string filteredString = RemoveUnwantedCharacters(inputMac, allowedCharacters);
